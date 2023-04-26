@@ -752,7 +752,7 @@ a {
 }
 
 .projects__list-item-img > img:hover {
-  transform: scale(1.1) translateY(15.5px);
+  transform: scale(1.05) translateY(8.5px);
 }
 
 .projects__list-item-heading-tertiary {
