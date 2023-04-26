@@ -118,7 +118,7 @@ a {
 
 .btn-inv {
   color: rgba(var(--themeColor), 1);
-  background: #fff;
+  background: transparent;
 }
 
 .btn-sm {
@@ -461,7 +461,7 @@ a {
 }
 .select {
   border: 2px solid white;
-  padding: 1.3rem 2rem;
+  padding: 1.1rem 2rem;
   font-weight: 400;
   font-size: 1.6rem;
   margin-right: 20px;
@@ -473,6 +473,8 @@ a {
 /* Hero Section Stylings */
 
 .home-hero {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/so-white.png);
+  background-size: contain;
   display: flex;
   height: 100vh;
   min-height: 80rem;
@@ -736,6 +738,7 @@ a {
   height: 350px;
   background-size: cover;
   position: relative;
+  overflow: hidden;
 }
 .projects__list-item-img > img {
   position: absolute;
@@ -745,6 +748,11 @@ a {
   height: 96%;
   object-fit: cover;
   object-position: center;
+  transition: 0.3s;
+}
+
+.projects__list-item-img > img:hover {
+  transform: scale(1.1) translateY(15.5px);
 }
 
 .projects__list-item-heading-tertiary {
@@ -932,6 +940,10 @@ a {
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
+  transition: 0.3s;
+}
+.contact__form-visual:hover {
+  transform: scale(1.05) translateX(12px);
 }
 
 @media (max-width: 37.5em) {
