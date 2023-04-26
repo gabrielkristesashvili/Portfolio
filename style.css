@@ -23,7 +23,6 @@
 /*! end */
 :root {
   --themeColor: 33, 131, 191;
-  /* Theme Color in (R,G,B) format */
 }
 .black-text {
   color: #000 !important;
@@ -366,28 +365,6 @@ a {
   padding: 3rem;
   color: #555;
 }
-
-/* @keyframes smMenuLinkStartAnimation {
-  0% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes smMenuLinkEndAnimation {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(50px);
-    opacity: 0;
-  }
-} */
 
 .main-header__sm-scr-nav-btn-line:first-child {
   margin-bottom: 8px;
@@ -867,13 +844,6 @@ a {
   font-weight: 400;
   letter-spacing: 1px;
 }
-
-/* Code for Modern Browsers */
-/* Code for WebKit, Blink, Edge */
-/* Code for Internet Explorer 10-11 */
-/* Code for Microsoft Edge */
-/* Code for Mozilla Firefox 4 to 18 */
-/* Code for Mozilla Firefox 19+ */
 
 .contact__form-field-input::placeholder {
   color: rgb(175, 175, 175);
