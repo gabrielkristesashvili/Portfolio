@@ -774,10 +774,6 @@ a {
 }
 
 @media (max-width: 37.5em) {
-  .projects__btn-theme {
-    /* margin: 0 0 2rem 9rem; */
-  }
-
   .projects__btn-theme,
   .projects__btn-inv {
     width: 70%;
