@@ -1083,3 +1083,10 @@ a {
 .black-border {
   border: 2px solid #000 !important;
 }
+
+.templ {
+  background-color: #ffffff;
+}
+.templ a {
+  color: #000;
+}
