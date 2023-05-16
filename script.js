@@ -165,13 +165,8 @@ themeColorSelectorInput.addEventListener('input', (e) => {
 
 })
 
-// if (localStorage.getItem('color')) {
-//   let userSelectedColor = localStorage.getItem('color')
-//   themeColorSelectorInput.value = userSelectedColor
-//   setDynamicColor(userSelectedColor)
-// }
 
-// ---
+
 const headerLogoConatiner = document.querySelector('.main-header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {
