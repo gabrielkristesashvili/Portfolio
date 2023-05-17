@@ -392,6 +392,11 @@ a {
   color: #fff;
   font-weight: 400;
 }
+@media screen and (max-width: 993px) {
+  .main-header__logo-text {
+    display: none;
+  }
+}
 
 .main-header__navigation {
   transform: translateX(-100px);
@@ -465,7 +470,11 @@ a {
 }
 
 /* Hero Section Stylings */
-
+#htmlcsstemplates {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/so-white.png);
+  background-size: contain;
+  background-attachment: fixed;
+}
 .home-hero {
   background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/so-white.png);
   background-size: contain;

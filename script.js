@@ -129,6 +129,7 @@ const setDynamicColor = (color) => {
   var paragraph = document.querySelectorAll('[w_color]')
   var imgColor = document.querySelectorAll('[i_color]')
   var borderColor = document.querySelectorAll('[b_color]')
+  var bgColor = document.querySelectorAll('[bg_color]')
   const { r, g, b } = hexToRgb(`${color}`)
   if (r >= 200 && g >= 200 && b >= 200) {
     // paragraph.classList.add("black-text");
@@ -137,6 +138,9 @@ const setDynamicColor = (color) => {
     });
     borderColor.forEach(element => {
       element.style.borderColor = "#000"
+    });
+    bgColor.forEach(element => {
+      element.style.backgroundColor = "#fff"
     });
     paragraph.forEach(element => {
       element.classList.add('black-text');
@@ -153,6 +157,9 @@ const setDynamicColor = (color) => {
     });
     borderColor.forEach(element => {
       element.style.borderColor = "#fff"
+    });
+    bgColor.forEach(element => {
+      element.style.backgroundColor = "#fff"
     });
   }
 
