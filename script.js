@@ -134,7 +134,7 @@ const setDynamicColor = (color) => {
   if (r >= 200 && g >= 200 && b >= 200) {
     // paragraph.classList.add("black-text");
     imgColor.forEach(element => {
-      element.src = './assets/logo1.png';
+      element.src = '../assets/logo1.png';
     });
     borderColor.forEach(element => {
       element.style.borderColor = "#000"
@@ -153,7 +153,8 @@ const setDynamicColor = (color) => {
       element.classList.add('white-text');
     });
     imgColor.forEach(element => {
-      element.src = './assets/logo.png';
+      // element.src = './assets/logo.png';
+      element.src = '../assets/logo.png';
     });
     borderColor.forEach(element => {
       element.style.borderColor = "#fff"
